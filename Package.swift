@@ -14,6 +14,6 @@ let package = Package(
         .package(url: "https://github.com/mxcl/PromiseKit", from: "6.0.0")
     ],
     targets: [
-        .target(name: "CancellablePromiseKit", dependencies: [])
+        .target(name: "CancellablePromiseKit", dependencies: ["PromiseKit"])
     ]
 )
