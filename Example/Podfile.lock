@@ -1,21 +1,21 @@
 PODS:
   - CancellablePromiseKit (0.3.0):
     - PromiseKit (~> 6)
-  - PromiseKit (6.10.0):
-    - PromiseKit/CorePromise (= 6.10.0)
-    - PromiseKit/Foundation (= 6.10.0)
-    - PromiseKit/UIKit (= 6.10.0)
-  - PromiseKit/CorePromise (6.10.0)
-  - PromiseKit/Foundation (6.10.0):
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
     - PromiseKit/CorePromise
-  - PromiseKit/UIKit (6.10.0):
+  - PromiseKit/UIKit (6.13.1):
     - PromiseKit/CorePromise
 
 DEPENDENCIES:
   - CancellablePromiseKit (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - PromiseKit
 
 EXTERNAL SOURCES:
@@ -23,9 +23,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CancellablePromiseKit: 869c2408bc7db8b7dddb4a8c8f3924249d9f83a0
-  PromiseKit: 1fdaeb6c0a94a5114fcb814ff3d772b86886ad4e
+  CancellablePromiseKit: b7bef54c78cbb4b30029ae26b33bf588fb19831d
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
 
 PODFILE CHECKSUM: 83a80d9070039d3b9f62f1f5a633c2a2549f43fe
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4
