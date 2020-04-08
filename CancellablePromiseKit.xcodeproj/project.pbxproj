@@ -19,7 +19,6 @@
 		37E76F16243CD3DE00F339F7 /* CancellablePromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E76F0E243CD3DE00F339F7 /* CancellablePromise.swift */; };
 		37E76F17243CD3DE00F339F7 /* Promise+CancellablePromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E76F0F243CD3DE00F339F7 /* Promise+CancellablePromise.swift */; };
 		37E76F1A243CD3F000F339F7 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E76F19243CD3F000F339F7 /* PromiseKit.framework */; };
-		37E76F1B243CD3F000F339F7 /* PromiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 37E76F19243CD3F000F339F7 /* PromiseKit.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,20 +30,6 @@
 			remoteInfo = CancellablePromiseKit;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		37E76F1C243CD3F000F339F7 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				37E76F1B243CD3F000F339F7 /* PromiseKit.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		37E76EED243CD39A00F339F7 /* CancellablePromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CancellablePromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,7 +152,6 @@
 				37E76EE9243CD39A00F339F7 /* Sources */,
 				37E76EEA243CD39A00F339F7 /* Frameworks */,
 				37E76EEB243CD39A00F339F7 /* Resources */,
-				37E76F1C243CD3F000F339F7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
